@@ -45,3 +45,39 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+
+### MongoDB Bookstore Assignment
+This repository contains the complete solution for the PLP MongoDB assignment, demonstrating CRUD operations, advanced queries, aggregation pipelines, and indexing in MongoDB.
+
+### Assignment Overview
+The assignment involves creating a bookstore database with MongoDB, implementing various database operations, and demonstrating performance optimization through indexing
+
+ How to Run
+
+### Clone the repository
+
+1. Start MongoDB
+    - mongod
+
+2. Connect to MongoDB
+    - mongosh
+
+3. Run the setup script
+    - use plp_bookstore
+    - load('data/insert_books.js')
+
+4. Execute queries
+    - bashload('queries/basic-crud.js')
+    - load('queries/advanced-queries.js')
+    - load('queries/aggregation-pipelines.js')
+    - load('queries/indexing.js')
+
+
+Key Learning Outcomes
+✅ MongoDB database and collection creation
+✅ CRUD operations implementation
+✅ Advanced querying with filters, sorting, and pagination
+✅ Aggregation pipeline development
+✅ Database indexing for performance optimization
+✅ Query performance analysis using explain()
